@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MantIA | Gestión Inteligente de Mantenimiento</title>
+    <meta
+      name="description"
+      content="MantIA es una plataforma de gestión de mantenimiento diseñada para organizar equipos, mantenimientos, fallas, repuestos e indicadores, evolucionando hacia una gestión inteligente basada en datos."
+    />
+    <meta property="og:title" content="MantIA | Gestión Inteligente de Mantenimiento" />
+    <meta
+      property="og:description"
+      content="El futuro del mantenimiento, impulsado por IA y gestión inteligente de datos."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0B1220" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#inicio" class="brand" aria-label="MantIA inicio">
+          <span class="brand-mark">M</span>
+          <span class="brand-text">MANTIA</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#solucion">Solución</a>
+          <a href="#funcionalidades">Funcionalidades</a>
+          <a href="#comofunciona">Cómo funciona</a>
+          <a href="#beneficios">Beneficios</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a class="btn btn-secondary btn-small" href="https://wa.me/51913431552?text=Hola%2C%20estoy%20interesado%20en%20conocer%20m%C3%A1s%20sobre%20MantIA%20y%20quiero%20consultar%20informaci%C3%B3n." target="_blank" rel="noopener noreferrer">WHATSAPP</a>
+          <a class="btn btn-primary btn-small" href="#contacto">SOLICITAR DEMO</a>
+        </div>
+
+        <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="hero section-dark">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">Sistema inteligente de mantenimiento</span>
+            <h1>El futuro del mantenimiento, impulsado por IA y gestión inteligente de datos.</h1>
+            <p class="hero-subtitle">
+              Una nueva forma de gestionar equipos, mantenimientos, fallas, repuestos e indicadores desde una plataforma diseñada para la realidad del mantenimiento industrial y minero.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contacto">SOLICITAR UNA DEMOSTRACIÓN</a>
+              <a class="btn btn-ghost" href="#solucion">CONOCER MANTIA</a>
+              <a class="btn btn-whatsapp" href="https://wa.me/51913431552?text=Hola%2C%20estoy%20interesado%20en%20conocer%20m%C3%A1s%20sobre%20MantIA%20y%20quisiera%20solicitar%20informaci%C3%B3n%20o%20una%20demostraci%C3%B3n." target="_blank" rel="noopener noreferrer">CONSULTAR POR WHATSAPP</a>
+            </div>
+
+            <div class="hero-proof">
+              <span class="proof-item">
+                <strong>+51 913 431 552</strong>
+                <small>WhatsApp</small>
+              </span>
+              <span class="proof-item">
+                <strong>Prototipo</strong>
+                <small>en desarrollo</small>
+              </span>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="dashboard-panel">
+              <div class="panel-topbar">
+                <span class="dot red"></span>
+                <span class="dot amber"></span>
+                <span class="dot green"></span>
+                <span class="app-title">MantIA Panel</span>
+              </div>
+
+              <div class="kpi-row">
+                <div class="kpi-card">
+                  <span class="kpi-label">Equipos activos</span>
+                  <strong>128</strong>
+                  <small class="positive">+4.8%</small>
+                </div>
+                <div class="kpi-card">
+                  <span class="kpi-label">Programados</span>
+                  <strong>36</strong>
+                  <small class="neutral">Hoy</small>
+                </div>
+                <div class="kpi-card">
+                  <span class="kpi-label">Pendientes</span>
+                  <strong>14</strong>
+                  <small class="warning">Atención</small>
+                </div>
+              </div>
+
+              <div class="dashboard-content">
+                <div class="chart-card">
+                  <div class="card-head">
+                    <h3>Disponibilidad</h3>
+                    <span>92.4%</span>
+                  </div>
+                  <div class="bars">
+                    <span style="height: 42%"></span>
+                    <span style="height: 52%"></span>
+                    <span style="height: 58%"></span>
+                    <span style="height: 66%"></span>
+                    <span style="height: 75%"></span>
+                    <span style="height: 88%"></span>
+                    <span style="height: 92%"></span>
+                  </div>
+                </div>
+
+                <div class="mini-panel">
+                  <div class="mini-header">
+                    <h3>Alertas</h3>
+                    <span class="alert-badge">5</span>
+                  </div>
+                  <ul>
+                    <li><span class="status danger"></span> Cambio de aceite pendiente</li>
+                    <li><span class="status warning"></span> Falla recurrente - Camión 04</li>
+                    <li><span class="status info"></span> Revisión de frenos programada</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="table-card">
+                <div class="table-head">
+                  <span>Mantenimiento</span>
+                  <span>Estado</span>
+                  <span>Hrs</span>
+                </div>
+                <div class="table-row">
+                  <span>Excavadora 12</span>
+                  <span class="pill ok">Ejecutado</span>
+                  <span>142</span>
+                </div>
+                <div class="table-row">
+                  <span>Bulldozer 07</span>
+                  <span class="pill delayed">Pendiente</span>
+                  <span>86</span>
+                </div>
+                <div class="table-row">
+                  <span>Camión 04</span>
+                  <span class="pill review">Revisión</span>
+                  <span>94</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="solucion" class="section-light">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow accent">Problema y oportunidad</span>
+            <h2>El mantenimiento genera datos. El desafío es convertirlos en decisiones.</h2>
+          </div>
+
+          <div class="problem-grid">
+            <article class="problem-card reveal">
+              <div class="icon-box"><span>01</span></div>
+              <h3>Información dispersa</h3>
+              <p>Los equipos, fallas, tareas y repuestos quedan fragmentados en distintas fuentes de información.</p>
+            </article>
+            <article class="problem-card reveal">
+              <div class="icon-box"><span>02</span></div>
+              <h3>Registros manuales</h3>
+              <p>El seguimiento depende de formatos y procesos que no siempre están estandarizados ni disponibles a tiempo.</p>
+            </article>
+            <article class="problem-card reveal">
+              <div class="icon-box"><span>03</span></div>
+              <h3>Historial difícil de consultar</h3>
+              <p>La trazabilidad histórica se vuelve lenta y poco útil cuando la información no tiene estructura.</p>
+            </article>
+            <article class="problem-card reveal">
+              <div class="icon-box"><span>04</span></div>
+              <h3>Falta de seguimiento</h3>
+              <p>Las tareas programadas y las intervenciones ejecutadas pueden quedar sin una visión clara del estado real.</p>
+            </article>
+            <article class="problem-card reveal">
+              <div class="icon-box"><span>05</span></div>
+              <h3>Estado real poco claro</h3>
+              <p>Sin centralización, es difícil conocer con precisión cuál es la condición de cada activo.</p>
+            </article>
+            <article class="problem-card reveal">
+              <div class="icon-box"><span>06</span></div>
+              <h3>Fallas que no se aprovechan</h3>
+              <p>Los eventos repetidos no se convierten en conocimiento porque la información no se analiza.</p>
+            </article>
+            <article class="problem-card reveal">
+              <div class="icon-box"><span>07</span></div>
+              <h3>Control de repuestos limitado</h3>
+              <p>La relación entre fallas, servicios y consumos no siempre se mantiene conectada con el historial.</p>
+            </article>
+            <article class="problem-card reveal">
+              <div class="icon-box"><span>08</span></div>
+              <h3>Indicadores incompletos</h3>
+              <p>La disponibilidad, tiempos de parada y cumplimiento no se observan con contexto suficiente para actuar.</p>
+            </article>
+            <article class="problem-card reveal">
+              <div class="icon-box"><span>09</span></div>
+              <h3>Decisiones sin contexto</h3>
+              <p>Cuando la información no es clara, las decisiones se toman con datos parciales o desactualizados.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-dark value-section">
+        <div class="container">
+          <div class="section-heading center reveal">
+            <span class="eyebrow accent">Propuesta de valor</span>
+            <h2>MantIA conecta todo el ciclo del mantenimiento.</h2>
+          </div>
+
+          <div class="value-flow reveal">
+            <span>PLANIFICAR</span>
+            <span class="arrow">↓</span>
+            <span>EJECUTAR</span>
+            <span class="arrow">↓</span>
+            <span>REGISTRAR</span>
+            <span class="arrow">↓</span>
+            <span>ANALIZAR</span>
+            <span class="arrow">↓</span>
+            <span>MEJORAR</span>
+          </div>
+
+          <div class="value-copy reveal">
+            <p>
+              MantIA centraliza la información y permite construir un historial de mantenimiento que se convierte progresivamente en una fuente de conocimiento para la empresa.
+            </p>
+            <blockquote>
+              “No solamente registra mantenimiento. Ayuda a organizarlo, ejecutarlo, analizarlo y aprender de él.”
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section id="funcionalidades" class="section-light">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow accent">Funcionalidades</span>
+            <h2>Una plataforma pensada para operar mantenimiento real.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <div class="feature-icon">⚙️</div>
+              <h3>Gestión de equipos</h3>
+              <p>Registro de equipos, código e identificación, marca/modelo, horómetro, estado e historial de intervenciones.</p>
+            </article>
+            <article class="feature-card reveal">
+              <div class="feature-icon">📅</div>
+              <h3>Mantenimiento programado</h3>
+              <p>Planificación, frecuencias, horómetros, tareas pendientes y seguimiento de cumplimiento.</p>
+            </article>
+            <article class="feature-card reveal">
+              <div class="feature-icon">🛠️</div>
+              <h3>Mantenimiento correctivo</h3>
+              <p>Registro de fallas, diagnóstico, trabajo realizado, causa, solución y tiempo de reparación.</p>
+            </article>
+            <article class="feature-card reveal">
+              <div class="feature-icon">🧾</div>
+              <h3>Historial de fallas</h3>
+              <p>Consulta de eventos, repetición de fallas y análisis para identificar patrones de comportamiento.</p>
+            </article>
+            <article class="feature-card reveal">
+              <div class="feature-icon">📦</div>
+              <h3>Gestión de repuestos</h3>
+              <p>Registro, consumos e historial para relacionar mantenimientos con materiales y proveedores.</p>
+            </article>
+            <article class="feature-card reveal">
+              <div class="feature-icon">👷</div>
+              <h3>Gestión de técnicos</h3>
+              <p>Asignación de tareas, seguimiento, registro de trabajos y participación por equipo.</p>
+            </article>
+            <article class="feature-card reveal">
+              <div class="feature-icon">📊</div>
+              <h3>Supervisión</h3>
+              <p>Estado de tareas, trabajos pendientes, ejecutados y visión general del mantenimiento.</p>
+            </article>
+            <article class="feature-card reveal">
+              <div class="feature-icon">📈</div>
+              <h3>Indicadores KPI</h3>
+              <p>Disponibilidad, MTBF, MTTR, cumplimiento de mantenimiento preventivo, horas de parada y costos.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="comofunciona" class="section-light alt-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow accent">Cómo funciona</span>
+            <h2>Un flujo claro para convertir la operación en conocimiento.</h2>
+          </div>
+
+          <div class="steps-grid">
+            <div class="step-card reveal">
+              <span class="step-number">01</span>
+              <h3>REGISTRA</h3>
+              <p>Equipos, horas de operación, fallas, mantenimientos y repuestos.</p>
+            </div>
+            <div class="step-card reveal">
+              <span class="step-number">02</span>
+              <h3>ORGANIZA</h3>
+              <p>Planifica tareas y asigna responsabilidades para cada actividad crítica.</p>
+            </div>
+            <div class="step-card reveal">
+              <span class="step-number">03</span>
+              <h3>EJECUTA</h3>
+              <p>Los técnicos realizan y registran las actividades con trazabilidad.</p>
+            </div>
+            <div class="step-card reveal">
+              <span class="step-number">04</span>
+              <h3>ANALIZA</h3>
+              <p>La información histórica se transforma en indicadores útiles para la operación.</p>
+            </div>
+            <div class="step-card reveal">
+              <span class="step-number">05</span>
+              <h3>MEJORA</h3>
+              <p>Los datos permiten detectar tendencias, causas y oportunidades de mejora.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-dark modules-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow accent">Módulos de MantIA</span>
+            <h2>Construido para un mantenimiento organizado y trazable.</h2>
+          </div>
+
+          <div class="module-grid">
+            <div class="module-card reveal"><span>🧰</span><h3>Equipos</h3><p>Lifecycle y estado de activos.</p></div>
+            <div class="module-card reveal"><span>🗓️</span><h3>Mantenimientos</h3><p>Programación y ejecución.</p></div>
+            <div class="module-card reveal"><span>🚨</span><h3>Fallas</h3><p>Registro y diagnóstico.</p></div>
+            <div class="module-card reveal"><span>📦</span><h3>Repuestos</h3><p>Consumo y disponibilidad.</p></div>
+            <div class="module-card reveal"><span>👥</span><h3>Técnicos</h3><p>Asignación y desempeño.</p></div>
+            <div class="module-card reveal"><span>🧾</span><h3>Historial</h3><p>Eventos y trazabilidad.</p></div>
+            <div class="module-card reveal"><span>📊</span><h3>KPIs</h3><p>Indicadores operativos.</p></div>
+            <div class="module-card reveal"><span>🤖</span><h3>Inteligencia Artificial</h3><p>Asistencia en análisis y patrones.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-light ai-section">
+        <div class="container ai-wrap">
+          <div class="ai-copy reveal">
+            <span class="eyebrow accent">Inteligencia artificial</span>
+            <h2>De gestionar datos a convertirlos en conocimiento.</h2>
+            <p>
+              La visión futura de MantIA es utilizar la información histórica del mantenimiento como base para generar asistencia inteligente. Esto puede apoyar a equipos y supervisores en la identificación de patrones, el diagnóstico y la toma de decisiones a partir de datos reales y estructurados.
+            </p>
+
+            <div class="ai-lists">
+              <div>
+                <h3>Funciones actuales</h3>
+                <ul>
+                  <li>Registro y organización de mantenimiento</li>
+                  <li>Seguimiento de tareas y estados</li>
+                  <li>Historial centralizado de fallas y equipos</li>
+                  <li>Indicadores y KPI de operación</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Capacidades en evolución</h3>
+                <ul>
+                  <li>Identificar patrones de fallas</li>
+                  <li>Consultar historial de equipos</li>
+                  <li>Apoyar en diagnóstico y sugerencias de acción</li>
+                  <li>Interpretar indicadores y recordar mantenimientos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="ai-visual reveal">
+            <div class="brain-card">
+              <div class="brain-header">
+                <span>IA aplicada</span>
+                <span class="badge">Visión</span>
+              </div>
+              <div class="brain-grid">
+                <div class="chip">Patrones de falla</div>
+                <div class="chip">Diagnóstico</div>
+                <div class="chip">Recomendaciones</div>
+                <div class="chip">Análisis de KPI</div>
+                <div class="chip">Historial</div>
+                <div class="chip">Conocimiento</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-dark kpi-block">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow accent">KPIs</span>
+            <h2>Información que ayuda a tomar decisiones.</h2>
+          </div>
+
+          <div class="kpi-showcase">
+            <div class="kpi-metric reveal">
+              <strong>92.4%</strong>
+              <span>Disponibilidad</span>
+            </div>
+            <div class="kpi-metric reveal">
+              <strong>1,460 h</strong>
+              <span>MTBF</span>
+            </div>
+            <div class="kpi-metric reveal">
+              <strong>8.2 h</strong>
+              <span>MTTR</span>
+            </div>
+            <div class="kpi-metric reveal">
+              <strong>88%</strong>
+              <span>Cumplimiento PM</span>
+            </div>
+            <div class="kpi-metric reveal">
+              <strong>64 h</strong>
+              <span>Horas de parada</span>
+            </div>
+            <div class="kpi-metric reveal">
+              <strong>12</strong>
+              <span>Fallas recurrentes</span>
+            </div>
+          </div>
+
+          <div class="chart-panel reveal">
+            <div class="chart-info">
+              <span>Indicadores</span>
+              <h3>Rendimiento de mantenimiento</h3>
+            </div>
+            <div class="line-chart">
+              <span style="--h: 32%"></span>
+              <span style="--h: 41%"></span>
+              <span style="--h: 48%"></span>
+              <span style="--h: 56%"></span>
+              <span style="--h: 64%"></span>
+              <span style="--h: 71%"></span>
+              <span style="--h: 68%"></span>
+              <span style="--h: 80%"></span>
+              <span style="--h: 88%"></span>
+              <span style="--h: 94%"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-light">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow accent">Para quién es MantIA</span>
+            <h2>Diseñado para operaciones con activos críticos y trabajo técnico.</h2>
+          </div>
+
+          <div class="audience-grid">
+            <article class="audience-card reveal">
+              <div class="audience-icon">⛏️</div>
+              <h3>Minería</h3>
+              <p>Gestión de equipos y mantenimiento en operaciones mineras.</p>
+            </article>
+            <article class="audience-card reveal">
+              <div class="audience-icon">🚜</div>
+              <h3>Contratistas</h3>
+              <p>Control de flotas y seguimiento de mantenimiento.</p>
+            </article>
+            <article class="audience-card reveal">
+              <div class="audience-icon">🏭</div>
+              <h3>Mantenimiento industrial</h3>
+              <p>Organización y trazabilidad de las actividades.</p>
+            </article>
+            <article class="audience-card reveal">
+              <div class="audience-icon">🚚</div>
+              <h3>Maquinaria pesada</h3>
+              <p>Historial, fallas, horas de operación y planificación.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-light mockup-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow accent">Mockup del software</span>
+            <h2>Una vista realista de cómo podría operar MantIA.</h2>
+          </div>
+
+          <div class="software-mockup reveal">
+            <aside class="sidebar">
+              <div class="brand-mini">M</div>
+              <ul>
+                <li class="active">Dashboard</li>
+                <li>Equipos</li>
+                <li>Mantenimientos</li>
+                <li>Alertas</li>
+                <li>KPIs</li>
+              </ul>
+            </aside>
+
+            <div class="mockup-main">
+              <div class="mockup-header">
+                <div>
+                  <small>Panel de control</small>
+                  <h3>Operación general</h3>
+                </div>
+                <button>Exportar</button>
+              </div>
+
+              <div class="mockup-kpis">
+                <div class="mini-card"><span>Equipos</span><strong>128</strong></div>
+                <div class="mini-card"><span>Mantenimientos</span><strong>39</strong></div>
+                <div class="mini-card"><span>Alertas</span><strong>05</strong></div>
+                <div class="mini-card"><span>Disponibilidad</span><strong>92%</strong></div>
+              </div>
+
+              <div class="mockup-body">
+                <div class="mockup-chart">
+                  <div class="chart-bars">
+                    <span style="height: 22%"></span>
+                    <span style="height: 38%"></span>
+                    <span style="height: 45%"></span>
+                    <span style="height: 62%"></span>
+                    <span style="height: 58%"></span>
+                    <span style="height: 70%"></span>
+                    <span style="height: 82%"></span>
+                    <span style="height: 88%"></span>
+                  </div>
+                </div>
+
+                <div class="mockup-list">
+                  <h4>Actividad reciente</h4>
+                  <div class="activity-item"><span class="dot dot-1"></span> Mantenimiento preventivo en equipo 06</div>
+                  <div class="activity-item"><span class="dot dot-2"></span> Revisión de frenos programada</div>
+                  <div class="activity-item"><span class="dot dot-3"></span> Falla detectada en camión 04</div>
+                  <div class="activity-item"><span class="dot dot-4"></span> Repuesto solicitado para excavadora</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="beneficios" class="section-dark benefits-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow accent">Beneficios</span>
+            <h2>Más control, mayor claridad y mejor capacidad de decisión.</h2>
+          </div>
+
+          <div class="benefits-grid">
+            <div class="benefit-card reveal">Mayor organización</div>
+            <div class="benefit-card reveal">Centralización de información</div>
+            <div class="benefit-card reveal">Trazabilidad del mantenimiento</div>
+            <div class="benefit-card reveal">Mejor seguimiento de equipos</div>
+            <div class="benefit-card reveal">Historial de fallas</div>
+            <div class="benefit-card reveal">Mejor planificación</div>
+            <div class="benefit-card reveal">Información para decisiones</div>
+            <div class="benefit-card reveal">Evolución hacia mantenimiento inteligente</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="section-light contact-section">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <span class="eyebrow accent">Contacto</span>
+            <h2>¿Quieres conocer MantIA?</h2>
+            <p>
+              Conversemos sobre cómo una gestión inteligente del mantenimiento puede adaptarse a las necesidades de tu operación.
+            </p>
+
+            <div class="contact-meta">
+              <span>WhatsApp</span>
+              <strong>+51 913 431 552</strong>
+            </div>
+            <div class="contact-meta">
+              <span>Correo</span>
+              <strong>sccp.amagno@gmail.com</strong>
+            </div>
+            <div class="contact-meta">
+              <span>LinkedIn</span>
+              <strong>Almactech s.a.c</strong>
+            </div>
+            <div class="contact-meta">
+              <span>Ubicación</span>
+              <strong>Perú - Lima, Santa Anita</strong>
+            </div>
+
+            <a
+              class="btn btn-primary contact-btn"
+              href="https://wa.me/51913431552?text=Hola%2C%20estoy%20interesado%20en%20conocer%20MantIA%20y%20quisiera%20solicitar%20una%20demostraci%C3%B3n."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CONTACTAR POR WHATSAPP
+            </a>
+          </div>
+
+          <form class="contact-form reveal" action="https://wa.me/51913431552" method="get" target="_blank" rel="noopener noreferrer">
+            <div class="field-row">
+              <label>
+                <span>Nombre</span>
+                <input type="text" name="name" placeholder="Tu nombre" />
+              </label>
+              <label>
+                <span>Empresa</span>
+                <input type="text" name="company" placeholder="Empresa" />
+              </label>
+            </div>
+            <div class="field-row">
+              <label>
+                <span>Cargo</span>
+                <input type="text" name="role" placeholder="Cargo" />
+              </label>
+              <label>
+                <span>Correo electrónico</span>
+                <input type="email" name="email" placeholder="sccp.amagno@gmail.com" />
+              </label>
+            </div>
+            <label>
+              <span>Mensaje</span>
+              <textarea name="message" rows="5" placeholder="Cuéntanos tus necesidades..."></textarea>
+            </label>
+            <button class="btn btn-primary btn-full" type="submit">SOLICITAR DEMOSTRACIÓN</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="final-cta section-dark">
+        <div class="container final-inner reveal">
+          <div>
+            <span class="eyebrow accent">MantIA</span>
+            <h2>El mantenimiento está evolucionando.</h2>
+            <p>Conoce cómo MantIA puede transformar la forma en que tu empresa organiza y gestiona el mantenimiento.</p>
+          </div>
+
+          <div class="cta-actions">
+            <a class="btn btn-primary" href="#contacto">SOLICITAR DEMOSTRACIÓN</a>
+            <a class="btn btn-whatsapp" href="https://wa.me/51913431552?text=Hola%2C%20estoy%20interesado%20en%20conocer%20m%C3%A1s%20sobre%20MantIA%20y%20quisiera%20consultar%20informaci%C3%B3n." target="_blank" rel="noopener noreferrer">CONSULTAR POR WHATSAPP</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">M</span>
+            <span class="brand-text">MANTIA</span>
+          </div>
+          <p>Sistema Inteligente de Gestión de Mantenimiento</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Navegación del footer">
+          <a href="#inicio">Inicio</a>
+          <a href="#solucion">Solución</a>
+          <a href="#funcionalidades">Funcionalidades</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+
+        <div class="footer-contact">
+          <span>WhatsApp</span>
+          <strong>+51 913 431 552</strong>
+          <a class="btn btn-whatsapp btn-small" href="https://wa.me/51913431552?text=Hola%2C%20estoy%20interesado%20en%20conocer%20m%C3%A1s%20sobre%20MantIA%20y%20quisiera%20consultar%20informaci%C3%B3n." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 MantIA</p>
+        <p>sccp.amagno@gmail.com | Almactech s.a.c | Perú - Lima, Santa Anita</p>
+      </div>
+    </footer>
+
+    <a
+      class="floating-whatsapp"
+      href="https://wa.me/51913431552?text=Hola%2C%20estoy%20interesado%20en%20conocer%20m%C3%A1s%20sobre%20MantIA%20y%20quisiera%20solicitar%20informaci%C3%B3n%20o%20una%20demostraci%C3%B3n."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Consultar por WhatsApp"
+    >
+      <span class="wa-icon">WhatsApp</span>
+      <span class="wa-label">¿Tienes alguna consulta?</span>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
